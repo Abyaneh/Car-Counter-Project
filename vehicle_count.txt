@@ -1,0 +1,7 @@
+Vehicle Count Summary:
+truck: 11 (17.74%)
+car: 49 (79.03%)
+person: 1 (1.61%)
+motorbike: 1 (1.61%)
+
+Total Vehicles: 62
