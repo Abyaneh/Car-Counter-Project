@@ -55,8 +55,13 @@ git push origin main
 
 
 
-## Results
 
-https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi
 
-https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt
+## Outputs
+
+The processed video with detections and tracking can be viewed here:
+[output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
+
+The vehicle count results can be found here:
+[vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
+
