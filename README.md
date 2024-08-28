@@ -83,15 +83,22 @@ git push origin main
 
 
 
-## Results
 
-```bash
-The processed video with detections and tracking can be viewed here:
-[output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
+### 2. **افزودن فایل‌های Outputs به README.md**
 
-The vehicle count results can be found here:
-[vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
-```
+برای فایل‌های `output_video.avi` و `vehicle_count.txt` که در پوشه `outputs/` قرار دارند، اگر نمی‌خواهید آن‌ها را در مخزن اصلی ذخیره کنید، می‌توانید به روش‌های زیر عمل کنید:
+
+#### الف) **اشتراک‌گذاری لینک‌های دانلود فایل‌های خروجی**
+
+اگر فایل‌های `output_video.avi` و `vehicle_count.txt` را در GitHub Releases آپلود کرده‌اید، می‌توانید لینک‌های دانلود آن‌ها را در README.md قرار دهید.
+
+```markdown
+## Output Files
+
+The following output files are generated after running the project:
+
+- **Processed Video:** [Download output_video.avi](https://github.com/yourusername/yourrepo/releases/download/v1.0/output_video.avi)
+- **Vehicle Count:** [Download vehicle_count.txt](https://github.com/yourusername/yourrepo/releases/download/v1.0/vehicle_count.txt)
 
 
 
