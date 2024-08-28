@@ -22,7 +22,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 - save the video
 
 ## Installation
-
+ش
 ### Prerequisites
 - Python 3.x
 - pip (Python package installer)
