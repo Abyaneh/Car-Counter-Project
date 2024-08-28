@@ -55,9 +55,7 @@ git push origin main
 
 
 
-
-
-## Outputs
+## Results
 
 The processed video with detections and tracking can be viewed here:
 [output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
