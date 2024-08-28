@@ -57,6 +57,6 @@ git push origin main
 
 ## Results
 
-[here](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi).
+[(https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi).
 
-[here](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt).
+(https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt).
