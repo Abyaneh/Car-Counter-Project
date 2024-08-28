@@ -51,4 +51,4 @@ python src/main.py
 
 ## Input video
 
-[input](cars.mp4)
+[Download the video](cars.mp4)
