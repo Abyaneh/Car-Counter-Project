@@ -51,3 +51,12 @@ python src/main.py
 git add output_video.avi vehicle_count.txt
 git commit -m "Add output video and vehicle count files"
 git push origin main
+
+
+
+
+## Results
+
+The processed video with detections can be downloaded [here](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi).
+
+The vehicle counts file can be found [here](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt).
