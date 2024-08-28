@@ -48,3 +48,6 @@ To run the vehicle detection and counting script, use the following command:
 ```bash
 python src/main.py
 
+git add output_video.avi vehicle_count.txt
+git commit -m "Add output video and vehicle count files"
+git push origin main
