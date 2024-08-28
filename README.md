@@ -100,6 +100,3 @@ The following output files are generated after running the project:
 - **Processed Video:** [Download output_video.avi](https://github.com/yourusername/yourrepo/releases/download/v1.0/output_video.avi)
 - **Vehicle Count:** [Download vehicle_count.txt](https://github.com/yourusername/yourrepo/releases/download/v1.0/vehicle_count.txt)
 
-[vehicle_count.txt](https://github.com/user-attachments/files/16784509/vehicle_count.txt)
-
-
