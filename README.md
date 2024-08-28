@@ -48,7 +48,3 @@ To run the vehicle detection and counting script, use the following command:
 ```bash
 python src/main.py
 
-
-## Input video
-
-[Download the video](cars.mp4)
