@@ -2,6 +2,34 @@
 
 This project is a Python application that uses the YOLOv10 model to detect and count different vehicle types from video footage.
 
+## Project Structure
+
+Here's a quick overview of the project structure:
+
+```plaintext
+your_project/
+│
+├── README.md               # Project description and instructions
+├── LICENSE                 # License for the project
+├── .gitignore              # Files and directories to be ignored by git
+├── requirements.txt        # List of dependencies for the project
+├── setup.py                # Setup script for installing the package
+├── data/                   # Directory containing input data
+│   ├── cars.mp4            # Input video for processing
+│   └── mask.png            # Mask image for ROI
+│
+├── outputs/                # Directory containing the output files
+│   └── output_video.avi    # Processed video with detections
+│   └── vehicle_count.txt   # Text file with vehicle counts
+│
+├── src/                    # Source code directory
+│   ├── main.py             # Main script for running the project
+│   └── sort.py             # Implementation of the SORT algorithm
+│
+└── models/                 # Directory for machine learning models
+    └── yolov10n.pt         # YOLOv10n model file
+```
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
