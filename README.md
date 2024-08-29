@@ -89,18 +89,6 @@ git commit -m "Add output video and vehicle count files"
 git push origin main
 ```
 
-
-
-
-### 2. **افزودن فایل‌های Outputs به README.md**
-
-برای فایل‌های `output_video.avi` و `vehicle_count.txt` که در پوشه `outputs/` قرار دارند، اگر نمی‌خواهید آن‌ها را در مخزن اصلی ذخیره کنید، می‌توانید به روش‌های زیر عمل کنید:
-
-#### الف) **اشتراک‌گذاری لینک‌های دانلود فایل‌های خروجی**
-
-اگر فایل‌های `output_video.avi` و `vehicle_count.txt` را در GitHub Releases آپلود کرده‌اید، می‌توانید لینک‌های دانلود آن‌ها را در README.md قرار دهید.
-
-```markdown
 ## Output Files
 
 The following output files are generated after running the project:
