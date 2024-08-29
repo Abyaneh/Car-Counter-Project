@@ -89,7 +89,7 @@ git commit -m "Add output video and vehicle count files"
 git push origin main
 ```
 
-## Output Files
+## Results
 
 The following output files are generated after running the project:
 
