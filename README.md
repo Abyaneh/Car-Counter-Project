@@ -35,7 +35,8 @@ your_project/
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Input Data](#input data)
+- [Features](#features)
+- [Inputs](#inputs)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
@@ -52,7 +53,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 - Generates an output video with visual overlays and real-time counting.
 - save the video
 
-## Input Data
+## Inputs
 
 ### Graphics
 ![Graphics](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics.png)
