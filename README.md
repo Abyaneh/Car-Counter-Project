@@ -99,7 +99,43 @@ The following output files are generated after running the project:
 - **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
   
 
+## Contributing
 
+We welcome contributions to this project! To contribute, please follow these guidelines:
 
+1. **Fork the Repository**: Click on the 'Fork' button at the top of this repository page to create a copy of the repository in your GitHub account.
 
+2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
+    ```bash
+    git clone https://github.com/your-username/your_project.git
+    ```
+
+3. **Create a New Branch**: Create a new branch to work on your changes:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+4. **Make Your Changes**: Make your changes or additions to the codebase.
+
+5. **Test Your Changes**: Ensure that your changes do not break any existing functionality. Add tests if necessary.
+
+6. **Commit Your Changes**: Commit your changes with a descriptive commit message:
+    ```bash
+    git commit -m "Add feature: description of your feature"
+    ```
+
+7. **Push to Your Fork**: Push your changes to your forked repository:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+8. **Submit a Pull Request**: Go to the original repository on GitHub and submit a pull request. Please include a detailed description of your changes and the issue you are addressing.
+
+9. **Review Process**: Your pull request will be reviewed by the project maintainers. Feedback may be provided for you to make necessary revisions.
+
+### Reporting Issues
+
+If you find any bugs or issues in the project, please create an issue in the [Issues](https://github.com/your-username/your_project/issues) section of the repository with a detailed description of the problem and steps to reproduce it.
+
+Thank you for your contributions!
 
