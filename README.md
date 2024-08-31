@@ -51,12 +51,12 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 ## Input Data
 
+### Graphics
 ![Graphics](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics.png)
 ![Graphics2](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics2.png)
 
-
+### Mask
 ![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
-
 
 
 ## Installation
