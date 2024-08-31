@@ -17,6 +17,8 @@ your_project/
 ├── data/                   # Directory containing input data
 │   ├── cars.mp4            # Input video for processing
 │   └── mask.png            # Mask image for ROI
+│   └── graphics.png        # Graphics to beautify the output of the code
+│   └── graphics1.png       # Graphics to beautify the output of the code
 │
 ├── outputs/                # Directory containing the output files
 │   └── output_video.avi    # Processed video with detections
