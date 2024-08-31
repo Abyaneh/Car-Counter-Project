@@ -109,7 +109,7 @@ The following output files are generated after running the project:
 ![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
 
 #### chart output
-![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
+![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20chart%20output.png)
 
 ## Contributing
 
