@@ -144,7 +144,6 @@ def process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
             break
 
         img_region = preprocess_frame(img, mask)
-        img_graphics = load_image('graphics.png', check_channels=False, alpha=True)
         img_graphics1 = load_image('graphics2.png', check_channels=False, alpha=True)
 
         # Resize graphics image
