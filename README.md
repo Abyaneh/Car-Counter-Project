@@ -103,6 +103,13 @@ The following output files are generated after running the project:
 - **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
 - **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
   
+### Sample of outputs
+
+# video output
+![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
+
+# chart output
+![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
 
 ## Contributing
 
