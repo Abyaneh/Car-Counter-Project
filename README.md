@@ -62,7 +62,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 ### Mask
 ![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
-#### Hint: you can use https://www.canva.com/ for mask.
+#### Hint: you can use [canva](https://www.canva.com/) for mask.
 
 ## Installation
 
@@ -143,7 +143,7 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 8. **Submit a Pull Request**: Go to the original repository on GitHub and submit a pull request. Please include a detailed description of your changes and the issue you are addressing.
 
-9. **Review Process**: Your pull request will be reviewed by the project maintainers. Feedback may be provided for you to make necessary revisions.
+9. **Review Process**: The project maintainers will review Your pull request. Feedback may be provided so you can make the necessary revisions.
 
 ### Reporting Issues
 
