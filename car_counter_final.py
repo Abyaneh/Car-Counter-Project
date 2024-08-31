@@ -191,7 +191,6 @@ def process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
 
         # Draw vehicle counts on the image
         draw_vehicle_counts(img, vehicle_count)
-        cv2.putText(img, str(len(total_count)), (255, 100), cv2.FONT_HERSHEY_PLAIN, 5, (50, 50, 255), 8)
         cv2.imshow('Image', img)
 
         # Write the frame to the output video
