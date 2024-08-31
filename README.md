@@ -105,10 +105,10 @@ The following output files are generated after running the project:
   
 ### Sample of outputs
 
-# video output
+#### video output
 ![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
 
-# chart output
+#### chart output
 ![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
 
 ## Contributing
