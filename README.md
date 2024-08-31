@@ -62,7 +62,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 ### Mask
 ![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
-
+#### Hint: you can use https://www.canva.com/ for mask.
 
 ## Installation
 
