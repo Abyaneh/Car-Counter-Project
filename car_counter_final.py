@@ -145,6 +145,11 @@ def process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
 
         img_region = preprocess_frame(img, mask)
         img_graphics = load_image('graphics.png', check_channels=False, alpha=True)
+        img_graphics1 = load_image('graphics2.png', check_channels=False, alpha=True)
+
+        # Resize graphics image
+        img_graphics = cv2.resize(img_graphics1, (450, 150))   # Resize to desired dimensions
+
         if img_graphics.shape[2] == 3:  # If the image does not have alpha channel, add it
             img_graphics = cv2.merge([img_graphics, np.ones((img_graphics.shape[0], img_graphics.shape[1]), dtype=np.uint8) * 255])
         cvzone.overlayPNG(img, img_graphics, (0, 0))
@@ -215,13 +220,17 @@ def save_results(total_count, vehicle_count):
         vehicle_count (dict): Dictionary with vehicle types and their counts.
     """
     total_vehicle_count = len(total_count)
+    print("Saving results...")
+    print(f"Total count: {total_count}")
+    print(f"Vehicle count: {vehicle_count}")
+
     with open("vehicle_count.txt", "w") as file:
         file.write("Vehicle Count Summary:\n")
         for vehicle_type, count in vehicle_count.items():
             percentage = (count / total_vehicle_count) * 100 if total_vehicle_count > 0 else 0
             file.write(f"{vehicle_type}: {count} ({percentage:.2f}%)\n")
         file.write(f"\nTotal Vehicles: {total_vehicle_count}")
-
+    print("Results saved to vehicle_count.txt")
 if __name__ == "__main__":
     # List of COCO class names
     class_names = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
