@@ -51,8 +51,8 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 - Counts vehicles crossing a specified line in the video.
 - Saves the results, including vehicle counts, to a text file.
 - Generates an output video with visual overlays and real-time counting.
-- save the video
 - Draws bar and pie charts instantly.
+- save the video
 
 ## Inputs
 
