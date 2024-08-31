@@ -25,7 +25,7 @@ your_project/
 │   └── vehicle_count.txt   # Text file with vehicle counts
 │
 ├── src/                    # Source code directory
-│   ├── main.py             # Main script for running the project
+│   ├── car_counter_final.py             # Main script for running the project
 │   └── sort.py             # Implementation of the SORT algorithm
 │
 └── models/                 # Directory for machine learning models
