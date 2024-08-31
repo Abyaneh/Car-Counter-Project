@@ -137,7 +137,7 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 ### Reporting Issues
 
-If you find any bugs or issues in the project, please create an issue in the [Issues](https://github.com/your-username/your_project/issues) section of the repository with a detailed description of the problem and steps to reproduce it.
+If you find any bugs or issues in the project, please create an issue in the [Issues](https://github.com/Abyaneh/car_-counter_final-edition/issues) section of the repository with a detailed description of the problem and steps to reproduce it.
 
 Thank you for your contributions!
 
