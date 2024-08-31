@@ -35,6 +35,7 @@ your_project/
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Input Data](#input data)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
