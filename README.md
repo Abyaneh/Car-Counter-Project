@@ -152,7 +152,7 @@ If you find any bugs or issues in the project, please create an issue in the [Is
 Thank you for your contributions!
 
 
-## License
-
+:shield: License
+===
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/LICENSE.txt) file for details.
 
