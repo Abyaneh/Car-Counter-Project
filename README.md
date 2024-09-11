@@ -41,7 +41,7 @@ your_project/
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
+- [:shield: License](#license)
 
 ## Introduction
 This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
