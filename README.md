@@ -96,8 +96,8 @@ git commit -m "Add output video and vehicle count files"
 git push origin main
 ```
 
-## Results
-
+:dart: Results
+===
 The following output files are generated after running the project:
 
 - **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
