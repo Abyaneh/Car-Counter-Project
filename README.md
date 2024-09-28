@@ -102,6 +102,7 @@ git add output_video.avi vehicle_count.txt
 git commit -m "Add output video and vehicle count files"
 git push origin main
 ```
+[Back to Top](#table-of-contents)
 
 :dart: Results
 ===
