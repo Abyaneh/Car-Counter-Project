@@ -87,6 +87,8 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 3. Download the YOLOv10 model weights and place them in the `models/` directory.
 
+[Back to Top](#table-of-contents)
+
 ## Usage
 
 To run the vehicle detection and counting script, use the following command:
