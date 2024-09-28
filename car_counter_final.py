@@ -191,6 +191,7 @@ def process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
 
         # Draw vehicle counts on the image
         draw_vehicle_counts(img, vehicle_count)
+        cv2.putText(img, str(len(total_count)), (255, 100), cv2.FONT_HERSHEY_PLAIN, 5, (255, 255, 255), 8)
         cv2.imshow('Image', img)
 
         # Write the frame to the output video
@@ -243,12 +244,12 @@ if __name__ == "__main__":
                    "teddy bear", "hair drier", "toothbrush"]
 
     tracked_classes = ["person", "car", "bus", "truck", "motorbike"]
-    mask = load_image("mask.png", check_channels=False)  # Load mask image
+    mask = load_image("mask2.png", check_channels=False)  # Load mask image
     tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)  # Initialize SORT tracker
     limits = [400, 297, 673, 297]  # Define counting line coordinates
 
     # Initialize video capture and YOLO model
-    cap, model = initialize_video_and_model('cars.mp4', '../Yolo-Weights/yolov10x')
+    cap, model = initialize_video_and_model('cars.mp4', '../Yolo-Weights/yolov10n')
 
     # Setup video writer for output video
     frame_width = int(cap.get(3))
