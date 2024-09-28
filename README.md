@@ -35,16 +35,17 @@ your_project/
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Features](#features)
 - [Inputs](#inputs)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
+- [:shield: License](#License)                             kar nemikone!!!
 
 ## Introduction
 This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
+
+[Back to Top](#table-of-contents)
 
 ## Features
 - Detects and tracks vehicles like cars, trucks, buses, motorbikes, and people.
@@ -54,6 +55,8 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 - Draws bar and pie charts instantly.
 - save the video
 
+[Back to Top](#table-of-contents)
+
 ## Inputs
 
 ### Graphics
@@ -62,7 +65,9 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 ### Mask
 ![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
+#### Hint: you can use [Canva](https://www.canva.com/) for mask.
 
+[Back to Top](#table-of-contents)
 
 ## Installation
 
@@ -84,6 +89,8 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 3. Download the YOLOv10 model weights and place them in the `models/` directory.
 
+[Back to Top](#table-of-contents)
+
 ## Usage
 
 To run the vehicle detection and counting script, use the following command:
@@ -95,14 +102,26 @@ git add output_video.avi vehicle_count.txt
 git commit -m "Add output video and vehicle count files"
 git push origin main
 ```
+[Back to Top](#table-of-contents)
 
-## Results
-
+:dart: Results
+===
 The following output files are generated after running the project:
 
 - **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
 - **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
+
+
   
+### Sample of outputs
+
+#### video output
+![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20video%20output.png)
+
+#### chart output
+![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20chart%20output.png)
+
+[Back to Top](#table-of-contents)
 
 ## Contributing
 
@@ -110,19 +129,25 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 1. **Fork the Repository**: Click on the 'Fork' button at the top of this repository page to create a copy of the repository in your GitHub account.
 
+
+
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
     ```bash
     git clone https://github.com/your-username/your_project.git
     ```
+
 
 3. **Create a New Branch**: Create a new branch to work on your changes:
     ```bash
     git checkout -b feature/your-feature-name
     ```
 
+
+
 4. **Make Your Changes**: Make your changes or additions to the codebase.
 
 5. **Test Your Changes**: Ensure that your changes do not break any existing functionality. Add tests if necessary.
+
 
 6. **Commit Your Changes**: Commit your changes with a descriptive commit message:
     ```bash
@@ -136,7 +161,9 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 8. **Submit a Pull Request**: Go to the original repository on GitHub and submit a pull request. Please include a detailed description of your changes and the issue you are addressing.
 
-9. **Review Process**: Your pull request will be reviewed by the project maintainers. Feedback may be provided for you to make necessary revisions.
+
+9. **Review Process**: The project maintainers will review Your pull request. Feedback may be provided so you can make the necessary revisions.
+
 
 ### Reporting Issues
 
@@ -144,8 +171,10 @@ If you find any bugs or issues in the project, please create an issue in the [Is
 
 Thank you for your contributions!
 
+[Back to Top](#table-of-contents)
 
-## License
-
+:shield: License
+===
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/LICENSE.txt) file for details.
 
+[Back to Top](#table-of-contents)
