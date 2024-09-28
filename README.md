@@ -67,6 +67,8 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 ![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
 #### Hint: you can use [Canva](https://www.canva.com/) for mask.
 
+[Back to Top](#table-of-contents)
+
 ## Installation
 
 ### Prerequisites
@@ -87,7 +89,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 
 3. Download the YOLOv10 model weights and place them in the `models/` directory.
 
-[Back to Top](#table-of-contents)
+
 
 ## Usage
 
