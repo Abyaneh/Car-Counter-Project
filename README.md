@@ -86,6 +86,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
     ```bash
     pip install -r requirements.txt
     ```
+[Requirements](https://github.com/Abyaneh/Car-Counter-Project/blob/main/requirements.txt)
 
 3. Download the YOLOv10 model weights and place them in the `models/` directory.
 
