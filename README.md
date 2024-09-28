@@ -122,44 +122,42 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 1. **Fork the Repository**: Click on the 'Fork' button at the top of this repository page to create a copy of the repository in your GitHub account.
 
-[Back to Top](#table-of-contents)
+
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
     ```bash
     git clone https://github.com/your-username/your_project.git
     ```
-[Back to Top](#table-of-contents)
+
 
 3. **Create a New Branch**: Create a new branch to work on your changes:
     ```bash
     git checkout -b feature/your-feature-name
     ```
 
-[Back to Top](#table-of-contents)
+
 
 4. **Make Your Changes**: Make your changes or additions to the codebase.
 
 5. **Test Your Changes**: Ensure that your changes do not break any existing functionality. Add tests if necessary.
 
-[Back to Top](#table-of-contents)
 
 6. **Commit Your Changes**: Commit your changes with a descriptive commit message:
     ```bash
     git commit -m "Add feature: description of your feature"
     ```
-[Back to Top](#table-of-contents)
 
 7. **Push to Your Fork**: Push your changes to your forked repository:
     ```bash
     git push origin feature/your-feature-name
     ```
-[Back to Top](#table-of-contents)
 
 8. **Submit a Pull Request**: Go to the original repository on GitHub and submit a pull request. Please include a detailed description of your changes and the issue you are addressing.
 
-[Back to Top](#table-of-contents)
 
 9. **Review Process**: The project maintainers will review Your pull request. Feedback may be provided so you can make the necessary revisions.
+
+[Back to Top](#table-of-contents)
 
 ### Reporting Issues
 
