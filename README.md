@@ -40,7 +40,7 @@ your_project/
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [:shield: License](#License)                             kar nemikone!!!
+- [License](#License)                           
 
 ## Introduction
 This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
@@ -105,7 +105,7 @@ git push origin main
 ```
 [Back to Top](#table-of-contents)
 
-:dart: Results
+Results
 ===
 The following output files are generated after running the project:
 
