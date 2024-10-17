@@ -1,6 +1,6 @@
 # Vehicle Detection and Counting with yolo
 
-This project is a Python application that uses the YOLOv10 model to detect and count different vehicle types from video footage.
+This project is a Python application that uses the YOLOv10 model(you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
 
 ## Project Structure
 
@@ -78,7 +78,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 ### Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your_project.git
+    git clone https://github.com/Abyaneh/Car-Counter-Project
     cd your_project
     ```
 
