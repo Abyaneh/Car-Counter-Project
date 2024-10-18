@@ -144,7 +144,7 @@ def process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
             break
 
         img_region = preprocess_frame(img, mask)
-        img_graphics1 = load_image('graphics2.png', check_channels=False, alpha=True)
+        img_graphics1 = load_image('data/graphics2.png', check_channels=False, alpha=True)
 
         # Resize graphics image
         img_graphics = cv2.resize(img_graphics1, (450, 150))   # Resize to desired dimensions
@@ -223,13 +223,13 @@ def save_results(total_count, vehicle_count):
     print(f"Total count: {total_count}")
     print(f"Vehicle count: {vehicle_count}")
 
-    with open("vehicle_count.txt", "w") as file:
+    with open("outputs/vehicle_count.txt", "w") as file:
         file.write("Vehicle Count Summary:\n")
         for vehicle_type, count in vehicle_count.items():
             percentage = (count / total_vehicle_count) * 100 if total_vehicle_count > 0 else 0
             file.write(f"{vehicle_type}: {count} ({percentage:.2f}%)\n")
         file.write(f"\nTotal Vehicles: {total_vehicle_count}")
-    print("Results saved to vehicle_count.txt")
+    print("Results saved to outputs/vehicle_count.txt")
 if __name__ == "__main__":
     # List of COCO class names
     class_names = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
@@ -244,17 +244,17 @@ if __name__ == "__main__":
                    "teddy bear", "hair drier", "toothbrush"]
 
     tracked_classes = ["person", "car", "bus", "truck", "motorbike"]
-    mask = load_image("mask2.png", check_channels=False)  # Load mask image
+    mask = load_image("data/mask2.png", check_channels=False)  # Load mask image
     tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)  # Initialize SORT tracker
     limits = [400, 297, 673, 297]  # Define counting line coordinates
 
     # Initialize video capture and YOLO model
-    cap, model = initialize_video_and_model('cars.mp4', '../Yolo-Weights/yolov10n')
+    cap, model = initialize_video_and_model('data/cars.mp4', '../Yolo-Weights/yolov10n')
 
     # Setup video writer for output video
     frame_width = int(cap.get(3))
     frame_height = int(cap.get(4))
-    out_video = cv2.VideoWriter('output_video.avi', cv2.VideoWriter_fourcc(*'XVID'), 30, (frame_width, frame_height))
+    out_video = cv2.VideoWriter('outputs/output_video.avi', cv2.VideoWriter_fourcc(*'XVID'), 30, (frame_width, frame_height))
 
     # Process the video to detect and track vehicles
     total_count, vehicle_count = process_video(cap, model, mask, tracker, limits, tracked_classes, out_video)
