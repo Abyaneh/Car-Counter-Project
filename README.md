@@ -11,6 +11,7 @@ your_project/
 │
 ├── .vscode/
 │   └── launch.json
+│
 ├── __pycache__/
 │   └── sort.cpython-311.pyc
 │
