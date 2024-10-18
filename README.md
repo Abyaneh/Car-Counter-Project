@@ -32,12 +32,12 @@ your_project/
 │   └── sort.py               # Implementation of the SORT algorithm
 │
 └── Yolo-Weights/             # Directory for machine learning models
-│    └── yolov10x.pt          # YOLOv10x model file ( I used)
+│    └── yolov10n.pt          # YOLOv10n model file ( I used)
 │    └── yolov8l.pt           # Another model that you can use
 │    └── yolov8m.pt           # Another model that you can use
 │    └── yolov8n.pt           # Another model that you can use
 │    └── yolov8s.pt           # Another model that you can use
-│    └── yolov10n.pt          # Another model that you can use
+│    └── yolov10x.pt          # Another model that you can use
 
 ```
 
