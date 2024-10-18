@@ -9,6 +9,12 @@ Here's a quick overview of the project structure:
 ```plaintext
 your_project/
 │
+├── .vscode/
+│   └── launch.json
+│
+├── __pycache__/
+│   └── sort.cpython-311.pyc
+│
 ├── README.md                 # Project description and instructions
 ├── LICENSE                   # License for the project
 ├── .gitignore                # Files and directories to be ignored by git
@@ -38,7 +44,7 @@ your_project/
 │    └── yolov8n.pt           # Another model that you can use
 │    └── yolov8s.pt           # Another model that you can use
 │    └── yolov10x.pt          # Another model that you can use
-
+│
 ```
 
 ## Table of Contents
@@ -69,11 +75,11 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 ## Inputs
 
 ### Graphics
-![Graphics](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics.png)
-![Graphics2](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics2.png)
+![Graphics](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics.png)
+![Graphics2](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics2.png)
 
 ### Mask
-![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
+![Mask](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/mask2.png)
 #### Hint: you can use [Canva](https://www.canva.com/) for mask.
 
 [Back to Top](#table-of-contents)
@@ -118,18 +124,18 @@ Results
 ===
 The following output files are generated after running the project:
 
-- **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
-- **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
+- **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/output_video.avi)
+- **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/vehicle_count.txt)
 
 
   
 ### Sample of outputs
 
 #### video output
-![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20video%20output.png)
+![video_output](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/Samples%20of%20outputs/Sample%20video%20output.png)
 
 #### chart output
-![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20chart%20output.png)
+![chart_output](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/Samples%20of%20outputs/Sample%20chart%20output.png)
 
 [Back to Top](#table-of-contents)
 
@@ -143,7 +149,7 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
     ```bash
-    git clone https://github.com/your-username/your_project.git
+    git clone https://github.com/Abyaneh/Car-Counter-Project
     ```
 
 
