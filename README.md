@@ -15,20 +15,30 @@ your_project/
 ├── requirements.txt          # List of dependencies for the project
 ├── data/                     # Directory containing input data
 │   ├── cars.mp4              # Input video for processing
-│   └── mask.png              # Mask image for ROI
+│   └── mask2.png              # Mask image for ROI
 │   └── graphics.png          # Graphics to beautify the output of the code
-│   └── graphics1.png         # Graphics to beautify the output of the code
+│   └── graphics2.png         # Graphics to beautify the output of the code
 │
 ├── outputs/                  # Directory containing the output files
 │   └── output_video.avi      # Processed video with detections
 │   └── vehicle_count.txt     # Text file with vehicle counts
+│   └── Samples of outputs/
+│       ├── Sample chart output.png
+│       └── Sample video output.png
+│ 
 │
 ├── src/                      # Source code directory
 │   ├── car_counter_final.py  # Main script for running the project
 │   └── sort.py               # Implementation of the SORT algorithm
 │
-└── models/                   # Directory for machine learning models
-    └── yolov10n.pt           # YOLOv10n model file
+└── Yolo-Weights/             # Directory for machine learning models
+│    └── yolov10x.pt          # YOLOv10x model file ( I used)
+│    └── yolov8l.pt           # Another model that you can use
+│    └── yolov8m.pt           # Another model that you can use
+│    └── yolov8n.pt           # Another model that you can use
+│    └── yolov8s.pt           # Another model that you can use
+│    └── yolov10n.pt          # Another model that you can use
+
 ```
 
 ## Table of Contents
