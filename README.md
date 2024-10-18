@@ -1,6 +1,6 @@
-# Vehicle Detection and Counting with yolo
+# Vehicle Detection and Counting with Yolo
 
-This project is a Python application that uses the YOLOv10 model to detect and count different vehicle types from video footage.
+This project is a Python application that uses the YOLOv10 model(you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
 
 ## Project Structure
 
@@ -13,23 +13,32 @@ your_project/
 ├── LICENSE                   # License for the project
 ├── .gitignore                # Files and directories to be ignored by git
 ├── requirements.txt          # List of dependencies for the project
-├── setup.py                  # Setup script for installing the package
 ├── data/                     # Directory containing input data
 │   ├── cars.mp4              # Input video for processing
-│   └── mask.png              # Mask image for ROI
+│   └── mask2.png              # Mask image for ROI
 │   └── graphics.png          # Graphics to beautify the output of the code
-│   └── graphics1.png         # Graphics to beautify the output of the code
+│   └── graphics2.png         # Graphics to beautify the output of the code
 │
 ├── outputs/                  # Directory containing the output files
 │   └── output_video.avi      # Processed video with detections
 │   └── vehicle_count.txt     # Text file with vehicle counts
+│   └── Samples of outputs/
+│       ├── Sample chart output.png
+│       └── Sample video output.png
+│ 
 │
 ├── src/                      # Source code directory
 │   ├── car_counter_final.py  # Main script for running the project
 │   └── sort.py               # Implementation of the SORT algorithm
 │
-└── models/                   # Directory for machine learning models
-    └── yolov10n.pt           # YOLOv10n model file
+└── Yolo-Weights/             # Directory for machine learning models
+│    └── yolov10n.pt          # YOLOv10n model file ( I used)
+│    └── yolov8l.pt           # Another model that you can use
+│    └── yolov8m.pt           # Another model that you can use
+│    └── yolov8n.pt           # Another model that you can use
+│    └── yolov8s.pt           # Another model that you can use
+│    └── yolov10x.pt          # Another model that you can use
+
 ```
 
 ## Table of Contents
@@ -40,7 +49,7 @@ your_project/
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [:shield: License](#License)                             kar nemikone!!!
+- [License](#License)                           
 
 ## Introduction
 This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
@@ -78,7 +87,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 ### Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your_project.git
+    git clone https://github.com/Abyaneh/Car-Counter-Project
     cd your_project
     ```
 
@@ -86,6 +95,7 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
     ```bash
     pip install -r requirements.txt
     ```
+[Requirements](https://github.com/Abyaneh/Car-Counter-Project/blob/main/requirements.txt)
 
 3. Download the YOLOv10 model weights and place them in the `models/` directory.
 
@@ -104,7 +114,7 @@ git push origin main
 ```
 [Back to Top](#table-of-contents)
 
-:dart: Results
+Results
 ===
 The following output files are generated after running the project:
 
@@ -173,7 +183,7 @@ Thank you for your contributions!
 
 [Back to Top](#table-of-contents)
 
-:shield: License
+License
 ===
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/LICENSE.txt) file for details.
 
