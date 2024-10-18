@@ -38,7 +38,7 @@ your_project/
 │    └── yolov8n.pt           # Another model that you can use
 │    └── yolov8s.pt           # Another model that you can use
 │    └── yolov10x.pt          # Another model that you can use
-
+│
 ```
 
 ## Table of Contents
@@ -69,11 +69,11 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 ## Inputs
 
 ### Graphics
-![Graphics](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics.png)
-![Graphics2](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/graphics2.png)
+![Graphics](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics.png)
+![Graphics2](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics2.png)
 
 ### Mask
-![Mask](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/mask.png)
+![Mask](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/mask2.png)
 #### Hint: you can use [Canva](https://www.canva.com/) for mask.
 
 [Back to Top](#table-of-contents)
@@ -126,10 +126,10 @@ The following output files are generated after running the project:
 ### Sample of outputs
 
 #### video output
-![video_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20video%20output.png)
+![video_output](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/Samples%20of%20outputs/Sample%20video%20output.png)
 
 #### chart output
-![chart_output](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/sample%20of%20outputs/Sample%20chart%20output.png)
+![chart_output](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/Samples%20of%20outputs/Sample%20chart%20output.png)
 
 [Back to Top](#table-of-contents)
 
