@@ -118,8 +118,8 @@ Results
 ===
 The following output files are generated after running the project:
 
-- **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/output_video.avi)
-- **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/car_-counter_final-edition/blob/main/vehicle_count.txt)
+- **Processed Video:** [Download output_video.avi](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/output_video.avi)
+- **Vehicle Count:** [Download vehicle_count.txt](https://github.com/Abyaneh/Car-Counter-Project/blob/main/outputs/vehicle_count.txt)
 
 
   
