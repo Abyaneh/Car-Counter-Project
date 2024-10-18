@@ -13,7 +13,6 @@ your_project/
 ├── LICENSE                   # License for the project
 ├── .gitignore                # Files and directories to be ignored by git
 ├── requirements.txt          # List of dependencies for the project
-├── setup.py                  # Setup script for installing the package
 ├── data/                     # Directory containing input data
 │   ├── cars.mp4              # Input video for processing
 │   └── mask.png              # Mask image for ROI
