@@ -149,7 +149,7 @@ We welcome contributions to this project! To contribute, please follow these gui
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
     ```bash
-    git clone https://github.com/your-username/your_project.git
+    git clone https://github.com/Abyaneh/Car-Counter-Project
     ```
 
 
