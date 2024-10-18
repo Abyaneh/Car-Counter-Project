@@ -9,6 +9,11 @@ Here's a quick overview of the project structure:
 ```plaintext
 your_project/
 │
+├── .vscode/
+│   └── launch.json
+├── __pycache__/
+│   └── sort.cpython-311.pyc
+│
 ├── README.md                 # Project description and instructions
 ├── LICENSE                   # License for the project
 ├── .gitignore                # Files and directories to be ignored by git
