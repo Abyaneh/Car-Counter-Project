@@ -1,6 +1,6 @@
 # Vehicle Detection and Counting with Yolo
 
-This project uses the YOLOv10 model(you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
+This project uses the YOLOv10 model (you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
 
 
 ## Table of Contents
@@ -24,8 +24,6 @@ This project uses a combination of YOLOv10 for object detection and the SORT alg
 - Counts vehicles crossing a specified line in the video.
 - Saves the results, including vehicle counts, to a text file.
 - Generates an output video with visual overlays and real-time counting.
-- Draws bar and pie charts instantly.
-- save the video
 
 [Back to Top](#table-of-contents)
 
@@ -36,14 +34,7 @@ Here's a quick overview of the project structure:
 ```plaintext
 your_project/
 │
-├── .vscode/
-│   └── launch.json
-│
-├── __pycache__/
-│   └── sort.cpython-311.pyc
-│
 ├── README.md                 # Project description and instructions
-├── LICENSE                   # License for the project
 ├── .gitignore                # Files and directories to be ignored by git
 ├── requirements.txt          # List of dependencies for the project
 ├── data/                     # Directory containing input data
@@ -82,7 +73,7 @@ your_project/
 
 ### Mask
 ![Mask](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/mask2.png)
-#### Hint: you can use [Canva](https://www.canva.com/) for mask.
+#### Tip: you can use [Canva](https://www.canva.com/) for mask.
 
 [Back to Top](#table-of-contents)
 
