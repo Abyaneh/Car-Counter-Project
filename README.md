@@ -65,29 +65,18 @@ your_project/
 │
 ```
 
-## Inputs
-
-### Graphics
-![Graphics](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics.png)
-![Graphics2](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/graphics2.png)
-
-### Mask
-![Mask](https://github.com/Abyaneh/Car-Counter-Project/blob/main/data/mask2.png)
-#### Tip: you can use [Canva](https://www.canva.com/) for mask.
-
 [Back to Top](#table-of-contents)
 
 ## Installation
 
 ### Prerequisites
 - Python 3.x
-- pip (Python package installer)
 
 ### Setup
 1. Clone the repository:
     ```bash
     git clone https://github.com/Abyaneh/Car-Counter-Project
-    cd your_project
+    cd Car-Counter-Project
     ```
 
 2. Install the required dependencies:
@@ -96,20 +85,12 @@ your_project/
     ```
 [Requirements](https://github.com/Abyaneh/Car-Counter-Project/blob/main/requirements.txt)
 
-3. Download the YOLOv10 model weights and place them in the `models/` directory.
-
-[Back to Top](#table-of-contents)
-
-## Usage
+### Usage
 
 To run the vehicle detection and counting script, use the following command:
 
 ```bash
-python src/main.py
-
-git add output_video.avi vehicle_count.txt
-git commit -m "Add output video and vehicle count files"
-git push origin main
+python src/car_counter_final.py 
 ```
 [Back to Top](#table-of-contents)
 
@@ -134,44 +115,12 @@ The following output files are generated after running the project:
 
 ## Contributing
 
-We welcome contributions to this project! To contribute, please follow these guidelines:
-
-1. **Fork the Repository**: Click on the 'Fork' button at the top of this repository page to create a copy of the repository in your GitHub account.
-
-
-
-2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the following command:
-    ```bash
-    git clone https://github.com/Abyaneh/Car-Counter-Project
-    ```
-
-
-3. **Create a New Branch**: Create a new branch to work on your changes:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-
-
-4. **Make Your Changes**: Make your changes or additions to the codebase.
-
-5. **Test Your Changes**: Ensure that your changes do not break any existing functionality. Add tests if necessary.
-
-
-6. **Commit Your Changes**: Commit your changes with a descriptive commit message:
-    ```bash
-    git commit -m "Add feature: description of your feature"
-    ```
-
-7. **Push to Your Fork**: Push your changes to your forked repository:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-8. **Submit a Pull Request**: Go to the original repository on GitHub and submit a pull request. Please include a detailed description of your changes and the issue you are addressing.
-
-
-9. **Review Process**: The project maintainers will review Your pull request. Feedback may be provided so you can make the necessary revisions.
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Add a new feature'`).
+4. Push to your branch (`git push origin feature-branch`).
+5. Open a pull request for review.
 
 
 ### Reporting Issues
