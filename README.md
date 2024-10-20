@@ -1,6 +1,33 @@
 # Vehicle Detection and Counting with Yolo
 
-This project is a Python application that uses the YOLOv10 model(you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
+This project uses the YOLOv10 model(you can change Yolov10 to Yolo11 or any Yolo version you want ) to detect and count different vehicle types in video footage.
+
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Project Structure](#Project-Structure)
+- [Inputs](#inputs)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#License)                           
+
+## Introduction
+This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
+
+[Back to Top](#table-of-contents)
+
+## Features
+- Detects and tracks vehicles like cars, trucks, buses, motorbikes, and people.
+- Counts vehicles crossing a specified line in the video.
+- Saves the results, including vehicle counts, to a text file.
+- Generates an output video with visual overlays and real-time counting.
+- Draws bar and pie charts instantly.
+- save the video
+
+[Back to Top](#table-of-contents)
 
 ## Project Structure
 
@@ -46,31 +73,6 @@ your_project/
 │    └── yolov10x.pt          # Another model that you can use
 │
 ```
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Inputs](#inputs)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#License)                           
-
-## Introduction
-This project uses a combination of YOLOv10 for object detection and the SORT algorithm for tracking vehicles across frames in a video. It also includes a mask to focus on a specific video region.
-
-[Back to Top](#table-of-contents)
-
-## Features
-- Detects and tracks vehicles like cars, trucks, buses, motorbikes, and people.
-- Counts vehicles crossing a specified line in the video.
-- Saves the results, including vehicle counts, to a text file.
-- Generates an output video with visual overlays and real-time counting.
-- Draws bar and pie charts instantly.
-- save the video
-
-[Back to Top](#table-of-contents)
 
 ## Inputs
 
