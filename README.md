@@ -7,7 +7,6 @@ This project uses the YOLOv10 model (you can change Yolov10 to Yolo11 or any Yol
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#Project-Structure)
-- [Inputs](#inputs)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
